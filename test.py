@@ -1,5 +1,4 @@
 import fastcp as fcp
 
-n = 100
-l = fcp.read_integers_per_line_tolist(n)
+l = fcp.read_separated_integers_into_list(" ")
 print(l)
