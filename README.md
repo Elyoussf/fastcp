@@ -23,10 +23,7 @@ To use `fastcp`, you first need to have Rust installed on your system. You also 
     ```
     This will create a `.whl` file in the `target/wheels` directory.
 
-4.  **Install the `fastcp` package:** Install the generated `.whl` file using pip. Replace `<wheel_file_name>` with the actual name of the `.whl` file:
-    ```bash
-    pip install target/wheels/<wheel_file_name>.whl
-    ```
+
 
 ## Usage in Python
 
