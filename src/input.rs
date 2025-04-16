@@ -1,7 +1,7 @@
 use std::io::{BufRead, BufReader, stdin};
 // use std::error::Error;
 
-use pyo3::{ffi::PyRun_String, prelude::*, types::PyList};
+use pyo3::{prelude::*, types::PyList};
 
 #[pyfunction]
 pub fn read_number(py: Python) -> PyResult<(bool, PyObject)> {
